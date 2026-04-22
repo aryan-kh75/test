@@ -1,0 +1,9 @@
+
+name="zoro" #name of the individual
+age=27 #age of the individual
+height_in_cm=179.2 #height of the individual in centimeters
+pass_or_fail=True #pass or fail status
+print("name:",name)
+print("age:",age)
+print("height in cm:",height_in_cm)
+print("pass or fail:",pass_or_fail)
