@@ -20,7 +20,7 @@ class Person:
         return f"Hello, my name is {self.name} and I am {self.age} years old."
     
     def __repr__(self):
-        return f"Person(name='{self.name}', age={self.age!r})"
+        return f"Person(name='{self.name!r}', age={self.age!r})"
     
 P1 = Person("Alice and wonderland", 30)
 P2 = Person("Bob", 25)

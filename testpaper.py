@@ -26,9 +26,9 @@ class Square(Shape):
     def area(self):
         return self.side ** 2
     
- r = Rectangle(5, 10)
- c = Circle(7)   
- s = Square(4)
+r = Rectangle(5, 10)
+c = Circle(7)   
+s = Square(4)
 print("Area of Rectangle:", r.area())  # Area of Rectangle: 50
 print("Area of Circle:", c.area())     # Area of Circle: 153.86     
 print("Area of Square:", s.area())     # Area of Square: 16
